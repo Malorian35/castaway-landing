@@ -1,0 +1,81 @@
+.newsletterSection {
+  position: relative;
+  margin: 200px 0;
+  background-color: #000000;
+  border-radius: 30px;
+  min-height: 387px;
+}
+
+.decoration {
+  position: absolute;
+  top: 330px;
+  left: -40px;
+  z-index: 1;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.header {
+  max-width: 431px;
+}
+
+.sectionHeading {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 79.2px;
+  letter-spacing: 6px;
+  margin: 5px 0 45px;
+}
+
+.sectionTag {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  color: #118da8;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 522px;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  margin-bottom: 35px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 24px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  height: 52px;
+  background-color: #191919;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.formInput:focus {
+  border-color: #118da8;
+  outline: none;
+}
+
+.formInput::placeholder {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: rgba(255, 255, 255, 0.7);
+}
