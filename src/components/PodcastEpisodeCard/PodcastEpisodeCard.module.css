@@ -1,0 +1,57 @@
+.episodeCard {
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0 auto 50px;
+}
+
+.cardContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.coverImage {
+  width: 389px;
+  height: 465px;
+  object-fit: cover;
+}
+
+.categoryTag {
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #191919;
+  border-radius: 8px;
+}
+
+.categoryLabel {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.titleGroup {
+  padding: 20px 0;
+}
+
+.episodeNumber {
+  font-size: 17px;
+  line-height: 27px;
+  color: #118da8;
+  display: block;
+}
+
+.episodeTitle {
+  font-size: 64px;
+  margin-top: 10px;
+  width: 701px;
+  line-height: 70.4px;
+  letter-spacing: 6px;
+}
+
+.episodeDescription {
+  font-size: 22px;
+  line-height: 33px;
+  width: 757px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 50px;
+}

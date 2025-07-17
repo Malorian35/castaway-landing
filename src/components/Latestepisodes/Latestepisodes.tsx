@@ -1,7 +1,7 @@
-import PrimaryButton from "../ui/Button/Button";
+import PrimaryButton from "../Button/Button";
 import sectionStyles from "./Latestepisodes.module.css";
 import { podcastEpisodes } from "../../const/const";
-import EpisodeCard from "../ui/EpisodeItem/EpisodeItem";
+import EpisodeCard from "../PodcastEpisodeCard/PodcastEpisodeCard";
 
 const Latestepisodes = () => {
   return (

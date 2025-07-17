@@ -1,0 +1,22 @@
+.primaryButton {
+  background-color: #118da8;
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-top: auto;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.primaryButton:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.primaryButton:focus {
+  outline: 2px solid #118da8;
+  outline-offset: 2px;
+}
