@@ -1,0 +1,60 @@
+.mainSection {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.leftDecoration {
+  position: absolute;
+  width: 68px;
+  height: 74px;
+  top: 20px;
+  left: 15px;
+}
+
+.rightDecoration {
+  position: absolute;
+  width: 160px;
+  top: 482px;
+  left: 740px;
+}
+
+.primaryImage {
+  height: 873px;
+  max-width: 650px;
+}
+
+.textContainer {
+  margin-left: 55px;
+}
+
+.mainHeading {
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 6px;
+  font-weight: 400;
+  width: 526px;
+}
+
+.accentText {
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: 6px;
+}
+
+.emphasisText {
+  font-size: 75px;
+}
+
+.platformsLabel {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.platformsList {
+  display: flex;
+  margin-top: 20px;
+  gap: 22px;
+}
