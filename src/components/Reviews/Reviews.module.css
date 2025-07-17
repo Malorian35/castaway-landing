@@ -1,0 +1,10 @@
+.testimonials {
+  margin-bottom: 100px;
+}
+
+.testimonialsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
