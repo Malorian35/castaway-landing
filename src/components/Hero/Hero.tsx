@@ -2,7 +2,7 @@ import componentStyles from "./Hero.module.css";
 import MainImage from "../../assets/HeroIcon.png";
 import DecorativeElementLeft from "../../assets/effects1.png";
 import DecorativeElementRight from "../../assets/effects2.png";
-import { socialPlatforms } from "../../const/const";
+import { platformList } from "../../constants/constants";
 
 const HeroComponent = () => {
   return (
@@ -35,12 +35,12 @@ const HeroComponent = () => {
         <div className={componentStyles.platformsContainer}>
           <p className={componentStyles.platformsLabel}>Listen on</p>
           <div className={componentStyles.platformsList}>
-            {socialPlatforms.map((platform) => (
+            {platformList.map((platform) => (
               <div key={platform.id}>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <img
-                    src={platform.imgUrl}
-                    alt={platform.title}
+                    src={platform.icon}
+                    alt={platform.name}
                   />
                 </a>
               </div>

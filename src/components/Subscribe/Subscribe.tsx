@@ -1,5 +1,5 @@
 import formStyles from "./Subscribe.module.css";
-import PrimaryButton from "../ui/Button/Button";
+import PrimaryButton from "../Button/Button";
 import { useState, type FormEvent } from "react";
 import DecorationElement from "../../assets/effects3.png";
 
@@ -55,7 +55,7 @@ const NewsletterSignup = () => {
                 required
               />
             </div>
-            <PrimaryButton label="Submit" type="submit" />
+            <PrimaryButton label="Submit" />
           </form>
         </div>
       </div>

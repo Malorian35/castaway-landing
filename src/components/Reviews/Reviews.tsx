@@ -1,4 +1,4 @@
-import { testimonials } from "../../const/const";
+import { testimonials } from "../../constants/constants";
 import TestimonialCard from "../Reviewitem/Reviewitem";
 import sectionStyles from "./Reviews.module.css";
 

@@ -3,7 +3,7 @@ import BrandLogo from "../../assets/Logo.png";
 import InstagramIcon from "../../assets/inst.png";
 import FacebookIcon from "../../assets/facebook.png";
 import TwitterIcon from "../../assets/twitter.png";
-import { platformList } from "../../const/const";
+import { platformList } from "../../constants/constants";
 
 const SiteFooter = () => {
   const mainMenuItems = ["Home", "About", "Episodes", "Contact"];
