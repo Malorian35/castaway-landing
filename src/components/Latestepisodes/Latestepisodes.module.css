@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79.2px;
+  letter-spacing: 6px;
+  margin: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.episodesList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
