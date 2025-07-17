@@ -1,0 +1,62 @@
+.profileSection {
+  margin-top: 250px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.profileContent {
+  max-width: 556px;
+}
+
+.hostName {
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79.2px;
+  letter-spacing: 6px;
+  margin: 5px 0 35px;
+}
+
+.hostDescription {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.sectionLabel {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #118da8;
+  margin-bottom: 10px;
+}
+
+.arrowButton {
+  display: flex;
+  background: #118da8;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.arrowIcon {
+  height: 40px;
+  width: auto;
+}
+
+.hostImage {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
