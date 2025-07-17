@@ -1,0 +1,59 @@
+.footerContainer {
+  margin: 200px 0 50px;
+}
+
+.footerContent {
+  display: flex;
+  padding: 0 20px;
+  gap: 40px;
+}
+
+.brandColumn {
+  flex: 1;
+  max-width: 500px;
+}
+
+.brandLogo {
+  width: 230px;
+  margin-bottom: 30px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.menuColumn {
+  width: 174px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuLink {
+  padding-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.2s ease-in;
+}
+
+.menuLink:hover {
+  color: #118da8;
+}
+
+.platforms {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.platformLink {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.platformLink:hover {
+  transform: scale(1.05);
+}
